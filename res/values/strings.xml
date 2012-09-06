@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PelleActivity!</string>
+    <string name="app_name">Pelle</string>
+    <string name="about">Jeg håber den er, som den skal være. <br />
+        Jeg har lavet programmet, så den sætter tid mellem bip til en tilfældig værdi fra en tronkeret normalfordeling. Dvs, at hvis du sætter kort gennemsnitsinterval, bliver det ikke gennemsnitligt. Det er bare toppen af normalfordelingen, men ved fx 3 sekunder og standardafvigelse 1 er det så tæt på en gennemsnitsværdi, som vi kommer.</string>
+    <string name="start">Start/Stop</string>
+
+</resources>

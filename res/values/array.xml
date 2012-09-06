@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array 
+        name="list">
+        
+        <item>Punch</item>
+        <item>Beep</item>
+        <item>Explosion</item>
+        <item>Pew</item>
+        <item>Swush</item>
+        
+    </string-array>
+    <string-array name="lValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        
+    </string-array>
+    
+</resources>

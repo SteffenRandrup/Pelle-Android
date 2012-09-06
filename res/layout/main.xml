@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/tvTidInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tidsinterval: 3 sekunder" />
+    
+    <TextView
+        android:id="@+id/tvSpred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Standardafvigelse: 1" />
+    
+    <TextView
+        android:id="@+id/tvMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mindste tid" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bStart"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:text="@string/start"
+            android:layout_margin="10dp" />
+
+        <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+        
+            <TextView
+            android:id="@+id/tvForekomster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" forekomster på "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/tvTid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" min"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

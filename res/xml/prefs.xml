@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <CheckBoxPreference 
+        android:title="Lyd"
+        android:defaultValue="true"
+        android:key="lydCheck"
+        android:summary="Lyd eller ej?"/>
+    
+    <CheckBoxPreference 
+        android:title="Vibration"
+        android:defaultValue="false"
+        android:key="checkbox"
+        android:summary="Vær opmærksom på at vibration ikke nødvendigvis er synkroniseret med lyden"/>
+    
+    <EditTextPreference
+        android:title="Tidsinterval"
+        android:summary="Tilnærmelsesvis gennemsnitlig tidsinterval. (toppen af en tronkeret normalfordeling)"
+        android:inputType="numberDecimal"
+        android:key="tid"
+        android:defaultValue="3" />
+    
+    <EditTextPreference
+        android:title="Standardafvigelse"
+        android:summary="Mål for tilfældighed. Tidsfordelingen er en tronkeret normalfordeling, så jo lavere standardafvigelsen er, jo tættere er vi på en normalfordeling. Bør bare sættes lavere end tidsintervallet"
+        android:inputType="numberDecimal"
+        android:key="spred"
+        android:defaultValue="1" />
+    
+    <EditTextPreference
+        android:title="Mindste tid"
+        android:summary="Mindste tid mellem to bip"
+        android:inputType="numberDecimal"
+        android:key="minTid"
+        android:defaultValue="0.3" />
+    
+    <ListPreference 
+        android:title="Lyde"
+        android:key="list"
+        android:summary="Vælg den lyd, der passer dig bedst"
+        android:entries="@array/list"
+        android:entryValues="@array/lValues"
+        android:defaultValue="2" />
+
+</PreferenceScreen>
